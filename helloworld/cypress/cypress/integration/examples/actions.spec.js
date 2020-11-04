@@ -13,7 +13,7 @@ context('Actions', () => {
 
     cy.get(':nth-child(5)').contains('This interactive documentation')
   //     .type('fake@email.com').should('have.value', 'fake@email.com')
-
+ // npx cypress run --record --spec "cypress/integration/my-spec.js"
   //     // .type() with special character sequences
   //     .type('{leftarrow}{rightarrow}{uparrow}{downarrow}')
   //     .type('{del}{selectall}{backspace}')
